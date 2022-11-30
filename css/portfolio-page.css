@@ -332,6 +332,7 @@ img {
 .logo-header {
   padding-top: 24px;
   padding-bottom: 25px;
+  font-size: 26px;
   color: #212121;
 }
 
@@ -499,7 +500,8 @@ img {
   color: #FFF;
 }
 
-.projects__item:hover .projects__description {
+.projects__item:hover .projects__description,
+.projects__item:focus .projects__description {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }

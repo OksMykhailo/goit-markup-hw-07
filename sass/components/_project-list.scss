@@ -33,7 +33,8 @@
     color: $whiteTextColor;
 }
 
-.projects__item:hover .projects__description {
+.projects__item:hover .projects__description,
+.projects__item:focus .projects__description {
     transform: translateY(0);
 }
 
